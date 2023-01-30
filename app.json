@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Password Manager",
+    "slug": "password-manager",
+    "version": "1.1.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sss.password.manager",
+      "buildNumber": "1",
+      "infoPlist": {
+        "UIUserInterfaceStyle": "light"
+      }
+    },
+    "android": {
+      "package": "com.sss.password.manager",
+      "userInterfaceStyle": "light",
+      "versionCode": 4,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": ["MEDIA_LIBRARY", "USE_BIOMETRIC", "USE_FINGERPRINT"]
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    }
+  }
+}
